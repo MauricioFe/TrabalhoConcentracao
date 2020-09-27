@@ -108,7 +108,7 @@ nav div.flex-row {
 .card-integrante {
     background: #fafafa;
     border-radius: 3px;
-    height: 350px;
+    height: 350px !important;
     width: 30%;
     padding: 10px;
     margin: 5px;
@@ -116,7 +116,7 @@ nav div.flex-row {
 }
 
 .flex-column {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -159,5 +159,9 @@ nav div.flex-row {
     color: black;
 }
 #solucao{
-    background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+    background-image: linear-gradient(45deg, #00c6fb 0%, #005bea 100%);
+}
+
+#solucao .container .flex-row .text-home{
+   text-align:right;
 }
