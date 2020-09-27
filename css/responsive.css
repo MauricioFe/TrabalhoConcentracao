@@ -1,0 +1,45 @@
+@media (max-width:1024px) {
+    .flex-row {
+        flex-direction: column !important;
+    }
+    .experience {
+        width: 90%;
+    }
+    .img-home {
+        width: initial;
+        margin-top: 15px;
+    }
+    nav {
+        margin-bottom: 5rem;
+    }
+    .problem-list {
+        display: flex;
+        flex-direction: row !important;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:767px) {
+    .menu-nav {
+        display: none !important;
+    }
+    .meditation {
+        width: 100% !important;
+    }
+    .text-home {
+        width: 100%;
+    }
+    nav {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:414px) {
+    .text-home h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .meditation{
+        height: 300px;
+    }
+}

@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
 
@@ -21,7 +22,7 @@
                 <div class="container flex-row">
                     <a class="logo" href="index.html">Grupo1 - Concentração</a>
 
-                    <ul>
+                    <ul class="menu-nav">
                         <li><a href="#home">Home </a></li>
                         <li><a href="#Integrantes">Integrantes </a></li>
                         <li><a href="#problema">Problema </a></li>
@@ -133,7 +134,7 @@
                     <h2>Experiencias do grupo</h2>
                 </div>
                 <div class="center-img">
-                    <img src="./img/experience.svg" width="700px" height="500px" alt="">
+                    <img class="experience" src="./img/experience.svg" width="700px" height="500px" alt="">
                 </div>
             </div>
         </section>
@@ -183,7 +184,6 @@
 
     <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage', {
-            anchors: ['firstPage', 'secondPage', '3rdPage'],
             scrollBar: true
         });
 
@@ -193,7 +193,19 @@
             speed: 1000,
             slidesToShow: 3,
             slidesToScroll: 3,
+            responsive: [
+                {
+                    breakpoint: 1100,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                },
+            
+          
+            ]
         });
+
     </script>
 </body>
 

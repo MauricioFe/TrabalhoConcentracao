@@ -100,11 +100,13 @@ nav div.flex-row {
     font-size: 3rem;
     font-weight: 300;
 }
-#Integrantes .container .flex-row{
+
+#Integrantes .container .flex-row {
     align-items: center;
     padding: 50px 0;
     flex-wrap: wrap;
 }
+
 .card-integrante {
     background: #fafafa;
     border-radius: 3px;
@@ -132,36 +134,47 @@ nav div.flex-row {
     height: 100px;
     border-radius: 50%;
 }
-#problema{
+
+#problema {
     background-image: linear-gradient(45deg, #00c6fb 0%, #005bea 100%);
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.problem-list{
+
+.problem-list {
     margin-top: 20px;
 }
-.problem-list p{
+
+.problem-list p {
     margin-left: 10px;
     font-size: 1.2rem;
 }
 
-.center-img{
+.center-img {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
 }
-.white{
+
+.white {
     color: white;
 }
-.black{
+
+.black {
     color: black;
 }
-#solucao{
+
+#solucao {
     background-image: linear-gradient(45deg, #00c6fb 0%, #005bea 100%);
 }
 
-#solucao .container .flex-row .text-home{
-   text-align:right;
+#solucao .container .flex-row .text-home {
+    text-align: right;
+}
+
+.carousel {
+    width: 100%;
 }
