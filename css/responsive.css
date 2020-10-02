@@ -32,6 +32,10 @@
     nav {
         margin: 0 auto;
     }
+    .video-div{
+        width: 100%;
+        margin-top: 10px;
+    }
 }
 
 @media (max-width:414px) {
