@@ -179,7 +179,10 @@ nav div.flex-row {
 .carousel {
     width: 100%;
 }
-
+#conclusao .text-home p{
+    font-weight: 500;
+    color: black;
+}
 .video-div {
     height: 70vh;
     width: 50%;
